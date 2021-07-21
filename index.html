@@ -16,6 +16,9 @@
 </head>
 
 <body>
+    {
+        background-color: lightblue;
+      } 
 
     <style>
         html,
@@ -29,6 +32,33 @@
             text-decoration: none;
         }
 
+        @media screen and (max-width: 750px) {
+    .portfolio{
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .portfolio .left, .portfolio .center, .portfolio .calendar, .portfolio .in_town, .portfolio .huber, .portfolio .is_war{
+        width: 100%;
+        margin-left: 0;
+    } 
+    .portfolio .right{
+        margin-left: 0;
+    }
+    .portfolio .sntky, .portfolio .posters{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .portfolio .phovea, .portfolio .masque{
+        width: 100%;
+        margin-left: 0;
+        top: 0;
+    }
+    .portfolio .ntky, .portfolio .alice, .portfolio .telephone, .portfolio .belvedere{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+}
         .author {
             font-family: Grotesk;
             font-size: 26px;
@@ -167,15 +197,15 @@
         <div class="left">
             <img src="./123.jpg" alt="">
             <div class="title">
-                <p>HomeVideo</p>
-                <p>Book</p>
+                <p>极坐标</p>
+                <p>海报</p>
             </div>
         </div>
         <div class="right">
             <img src="./images/thumb_typographic_posters_02.gif" alt="">
             <div class="title">
-                <p>Typography Posters</p>
-                <p>Various Posters</p>
+                <p></p>
+                <p></p>
             </div>
         </div>
     </section>
@@ -183,8 +213,8 @@
         <div class="center">
             <img src="./双重曝光海报.jpg" alt="">
             <div class="title">
-                <p>Reto Albertalli</p>
-                <p>Visual identity</p>
+                <p>双重曝光</p>
+                <p>海报</p>
             </div>
         </div>
     </section>
@@ -265,7 +295,7 @@
             </div>
         </div>
         <div class="telephone">
-            <img src="./images/thumb_the_telephone_book.jpg" alt="">
+            <img src="./中下-周志刚.jpg" alt="">
             <div class="title">
                 <p>Typography Posters</p>
                 <p>Various Posters</p>
@@ -274,14 +304,14 @@
     </section>
     <section class="portfolio start">
         <div class="is_war">
-            <img src="./images/thumb_modern_life_is_war.jpg" alt="">
+            <img src="./中右-周志刚.jpg" alt="">
             <div class="title">
                 <p>HomeVideo</p>
                 <p>Book</p>
             </div>
         </div>
         <div class="belvedere">
-            <img src="./images/thumb_belvedere_typeface.jpg" alt="">
+            <img src="./中左-周志刚.jpg" alt="">
             <div class="title">
                 <p>Typography Posters</p>
                 <p>Various Posters</p>
@@ -290,7 +320,7 @@
     </section>
     <section class="portfolio">
         <div class="center movie">
-            <img src="./images/holger_huber_movie_covers_006-1920x1280.jpg" alt="">
+            <img src="./未标题-2.jpg" alt="">
             <div class="title">
                 <p>Reto Albertalli</p>
                 <p>Visual identity</p>
